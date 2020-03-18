@@ -28,7 +28,7 @@ class GameBoardTest: XCTestCase {
         for y in 0...2 {
             for x in 0...2 {
                 XCTAssertNil(board[(x, y)],
-                             "⚠️ The entry at (\(x), \(y)) was \(board[(x, y)]) instead of nil ")
+                             "⚠️ The entry at (\(x), \(y)) was \(board[(x, y)]!) instead of nil ")
             }
         }
 
